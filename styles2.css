@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Fondo suave, color gris claro */
+    color: #333333; /* Color de texto más suave para mejor legibilidad */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header img {
+    width: 400px; /* Ajusta el tamaño del logo de Letflix aquí */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 28px;
+    color: #e50914; /* Color rojo de Netflix */
+    margin-top: 0;
+}
+
+.content-wrapper {
+    border: 2px solid #e50914; /* Borde rojo de Netflix */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centramos el contenedor */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+}
+
+.content {
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 16px; /* Tamaño de fuente para el contenido */
+    text-align: justify; /* Justificar texto */
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
