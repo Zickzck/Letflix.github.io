@@ -189,6 +189,31 @@ footer {
     animation: fadeIn 1.5s ease-in; /* Animación de entrada para el pie más suave */
 }
 
+.centered-button {
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Espacio superior si es necesario */
+}
+
+.story-button {
+    display: inline-block;
+    width: 50px; /* Ajusta el tamaño del botón */
+    height: 50px; /* Igualar la altura y el ancho para hacerlo redondo */
+    background-color: #e50914; /* Color rojo de Netflix */
+    color: white;
+    text-decoration: none;
+    border-radius: 50%; /* Hace el botón redondo */
+    font-size: 16px; /* Tamaño del texto */
+    text-align: center; /* Centra el texto dentro del botón */
+    line-height: 50px; /* Centra verticalmente el texto */
+    transition: background-color 0.3s;
+}
+
+.story-button:hover {
+    background-color: #c40612; /* Rojo más oscuro para el efecto hover */
+}
+
+
 footer p {
     margin: 0;
 }
