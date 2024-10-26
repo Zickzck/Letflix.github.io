@@ -211,6 +211,7 @@ header, footer {
         font-weight: bold;
     }
     
+
     .story-section:hover {
         transform: translateY(-5px); /* Desplazamiento hacia arriba */
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el ratón */
