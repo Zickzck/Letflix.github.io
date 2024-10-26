@@ -16,6 +16,24 @@ header img {
     height: auto; /* Mantiene la proporción de la imagen */
     margin-bottom: 10px;
 }
+.logo-header-left{
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px; /* Espacio adicional si es necesario */
+
+} 
+.logo-header-right{
+
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px; /* Espacio adicional si es necesario */
+}
 
 header h2 {
     font-size: 24px;
@@ -41,12 +59,25 @@ header h2 {
     line-height: 1.8;
     text-align: justify;
 }
+.logo-header-left, .logo-header-right {
+    width: 100px; /* Tamaño ajustable para los logos en el header */
+    height: auto;
+}
 
+/* Estilo para el footer */
 footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px;
-    margin-top: 30px;
+    display: flex; /* Utiliza flexbox para alinear los logos */
+    justify-content: space-between; /* Espacia los logos a los extremos */
+    align-items: center; /* Centra verticalmente los logos */
+    padding: 20px; /* Espaciado interno del footer */
+    background-color: #000000; /* Color de fondo del footer */
+    color: #ecf0f1;
+}
+
+/* Tamaño del logo */
+.logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
+    width: 100px; /* Tamaño para los logos */
+    height: auto;
 }
 
 .poem-button {
