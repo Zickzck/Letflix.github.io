@@ -28,7 +28,7 @@
     }
 
     .logo-header-left, .logo-header-right {
-        width: 150px; /* Tamaño más grande para el logo */
+        width: 70px; /* Tamaño más grande para el logo */
         height: auto;
         position: absolute;
     
@@ -166,86 +166,102 @@ header, footer {
         color: #34495e; /* Color de texto más suave */
     }
 
-    footer {
-        background-color: #2c3e50; /* Color oscuro para el pie de página */
-        color: #ecf0f1; /* Texto claro para contraste */
-        padding: 15px;
-        text-align: center;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        animation: fadeIn 1.5s ease-in; /* Animación de entrada para el pie más suave */
-    }
-    .poem-button {
-        display: inline-block;
-        width: 100px; /* Ajusta el ancho según tus necesidades */
-        height: 50px; /* Altura del botón */
-        background-color: #e50914; /* Color azul para el botón de poemas */
-        color: white;
-        text-decoration: none;
-        border-radius: 8px; /* Bordes redondeados */
-        font-size: 16px; /* Tamaño del texto */
-        text-align: center; /* Centra el texto dentro del botón */
-        line-height: 50px; /* Centra verticalmente el texto */
-        transition: background-color 0.3s;
-    }
+    .button-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; /* Espacio entre botones */
+    margin-top: 20px;
+}
 
-    .centered-button {
-        display: flex; /* Usar flexbox para centrar */
-        justify-content: center; /* Centrar horizontalmente */
-        margin-top: 20px; /* Espacio superior si es necesario */
-    }
+/* Botón "Poemas" */
+.poem-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.poem-button:hover {
+    background-color: #c40612;
+}
 
-    .image-button {
-        display: inline-block;
-        width: 100px; /* Ajusta el ancho según tus necesidades */
-        height: 50px; /* Altura del botón */
-        background-color: #e50914; /* Color azul para el botón de poemas */
-        color: white;
-        text-decoration: none;
-        border-radius: 8px; /* Bordes redondeados */
-        font-size: 16px; /* Tamaño del texto */
-        text-align: center; /* Centra el texto dentro del botón */
-        line-height: 50px; /* Centra verticalmente el texto */
-        transition: background-color 0.3s;
-    }
+/* Botón "Story" */
+.story-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px; /* Centrado vertical */
+    transition: background-color 0.3s;
+}
+.story-button:hover {
+    background-color: #c40612;
+}
 
-    .index-button {
-        display: inline-block;
-        width: 50px; /* Ajusta el tamaño del botón */
-        height: 50px; /* Igualar la altura y el ancho para hacerlo redondo */
-        background-color: #e50914; /* Color rojo de Netflix */
-        color: white;
-        text-decoration: none;
-        border-radius: 50%; /* Hace el botón redondo */
-        font-size: 16px; /* Tamaño del texto */
-        text-align: center; /* Centra el texto dentro del botón */
-        line-height: 50px; /* Centra verticalmente el texto */
-        transition: background-color 0.3s;
-    }
-    /* Footer básico */
-    footer {
-        background-color: #2c3e50; /* Color oscuro */
-        color: #ecf0f1; /* Texto claro */
-        padding: 15px 20px; /* Espaciado interno para alineación */
-        text-align: center;
-        position: relative;
-        display: flex; /* Flex para la disposición de elementos */
-        justify-content: space-between; /* Espacio entre los elementos */
-        align-items: center;
-    }
+.poem-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #e50914; /* Color rojo de Netflix */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
 
-    /* Estilos para los logos en el footer */
-    .logo-footer-left, .logo-footer-right {
-        width: 90px; /* Ajusta el tamaño según lo necesario */
-        height: auto;
-        opacity: 0.9; /* Transparencia opcional */
-    }
+.poem-button:hover {
+    background-color: #c40612; /* Rojo más oscuro para el efecto hover */
+}
+.index-button {
+    display: inline-block;
+    width: 50px; /* Ajusta el tamaño del botón */
+    height: 50px; /* Igualar la altura y el ancho para hacerlo redondo */
+    background-color: #e50914; /* Color rojo de Netflix */
+    color: white;
+    text-decoration: none;
+    border-radius: 50%; /* Hace el botón redondo */
+    font-size: 16px; /* Tamaño del texto */
+    text-align: center; /* Centra el texto dentro del botón */
+    line-height: 50px; /* Centra verticalmente el texto */
+    transition: background-color 0.3s;
+}
+.centered-button {
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Espacio superior si es necesario */
+}
 
-    /* Evitar que el contenido del footer se solape con los logos */
-    footer p {
-        flex: 1; /* Para centrar el texto entre los logos */
-        margin: 0;
-        padding: 0;
-    }
+footer {
+    background-color: #2c3e50; /* Color oscuro */
+    color: #ecf0f1; /* Texto claro */
+    padding: 15px 20px; /* Espaciado interno para alineación */
+    text-align: center;
+    position: relative;
+    display: flex; /* Flex para la disposición de elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+}
 
+/* Estilos para los logos en el footer */
+.logo-footer-left, .logo-footer-right {
+    width: 90px; /* Ajusta el tamaño según lo necesario */
+    height: auto;
+    opacity: 0.9; /* Transparencia opcional */
+}
+
+/* Evitar que el contenido del footer se solape con los logos */
+footer p {
+    flex: 1; /* Para centrar el texto entre los logos */
+    margin: 0;
+    padding: 0;
+}
