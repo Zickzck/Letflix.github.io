@@ -8,7 +8,7 @@ body {
 }
 
 .logo-header-left {
-    width: 100px; /* Tamaño del logo en el lado izquierdo */
+    width: 55px; /* Tamaño del logo en el lado izquierdo */
     height: auto;
     position: absolute;
     top: 10px; /* Ajusta la posición vertical hacia arriba */
@@ -61,7 +61,7 @@ footer {
 
 /* Tamaño del logo */
 .logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
-    width: 100px; /* Tamaño para los logos */
+    width: 70px; /* Tamaño para los logos */
     height: auto;
 }
 
