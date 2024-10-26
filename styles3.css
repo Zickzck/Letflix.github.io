@@ -36,7 +36,7 @@
 
   /* Tamaño del logo */
 .logo-footer-left, .logo-footer-right {
-    width: 100px; /* Tamaño más grande para el logo */
+    width: 70px; /* Tamaño más grande para el logo */
     height: auto;
     position: absolute;
     
