@@ -1,0 +1,308 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #d9e7f0, #f0f4f8); /* Fondo suave en tonos azul claro */
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header  {
+        padding: 20px;
+        background-color: #2c3e50; /* Color oscuro pero más suave para el encabezado */
+        color: #ecf0f1; /* Texto claro para contraste */
+        text-align: center;
+        position: relative;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 1.5s ease-in; /* Animación de entrada más suave */
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    header h2 {
+        font-size: 40px; /* Ajusta el tamaño del texto del encabezado */
+        color: #e74c3c; /* Color del subtítulo */
+    }
+
+    .logo-header-left, .logo-header-right {
+        width: 150px; /* Tamaño más grande para el logo */
+        height: auto;
+        position: absolute;
+    
+    } 
+
+  /* Tamaño del logo */
+.logo-footer-left, .logo-footer-right {
+    width: 100px; /* Tamaño más grande para el logo */
+    height: auto;
+    position: absolute;
+    
+}
+
+/* Posicionar los logos en el header */
+.logo-header-left {
+    top: 5px;
+    left: 10px;
+}
+
+.logo-header-right {
+    top: 10px;
+    right: 10px;
+}
+
+/* Posicionar los logos en el footer */
+.logo-footer-left {
+    bottom: 70px;
+    left: 10px;
+}
+
+.logo-footer-right {
+    bottom: 70px;
+    right: 10px;
+}
+
+/* Asegurarse de que el header y footer tengan posición relativa */
+header, footer {
+    position: relative;
+}
+
+
+    header img  {
+        width: 230px; /* Ajusta el tamaño del logo según sea necesario */
+        height: auto;
+        margin-bottom: 12px;
+        display: block; /* Asegura que la imagen ocupe toda la línea */
+        margin-left: auto; /* Centra horizontalmente */
+        margin-right: auto; /* Centra horizontalmente */
+    }
+    .letflix{
+    animation: bounce 1.5s infinite alternate; /* Animación de rebote más suave */
+}
+
+    @keyframes bounce {
+        from {
+            transform: translateY(0);
+        }
+        to {
+            transform: translateY(-10px);
+        }
+    }
+
+    .content-wrapper {
+        max-width: 900px;
+        margin: 30px auto;
+        display: flex;
+        background-color: #ffffff; /* Fondo blanco para el contenedor */
+        flex-direction: column;
+        gap: 20px; /* Espaciado entre las secciones */
+        border-radius: 8px; /* Esquinas redondeadas */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+        padding: 20px; /* Espaciado interno */
+        animation: slideInLeft 1.5s ease-in; /* Animación slideInLeft más suave */
+    }
+
+    .slideInLeft {
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        -webkit-animation-duration: 1.5s; /* Aumentar la duración */
+        animation-duration: 1.5s; /* Aumentar la duración */
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes slideInLeft {
+        0% {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+            visibility: visible;
+        }
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slideInLeft {
+        0% {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+            visibility: visible;
+        }
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+
+    .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-duration: 1.4s; /* Aumentar la duración */
+        animation-duration: 1.4s; /* Aumentar la duración */
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes fadeInLeft {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+
+    @keyframes fadeInLeft {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+
+    .story-section {
+        background-color: #ecf0f1; /* Color suave para las secciones de cuentos */
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Esquinas redondeadas para los contenidos */
+        transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Agregado */
+        
+    }
+    .audio-button {
+        background-color: #e50914; /* Rojo de Netflix */
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+  
+    
+    .audio-label {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Espacio entre el audio y el texto */
+        font-size: 16px;
+        color: #333; /* Cambia el color según el diseño */
+        font-weight: bold;
+    }
+    
+
+    .story-section:hover {
+        transform: translateY(-5px); /* Desplazamiento hacia arriba */
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el ratón */
+        background-color: #d1d8db; /* Cambiar el fondo al pasar el ratón */
+    }
+
+    .story-card {
+        padding: 20px;
+        transition: transform 0.5s; /* Transición suave para el cuento */
+    }
+
+    .story-card:hover {
+        transform: scale(1.02); /* Escalado al pasar el ratón */
+    }
+
+    .story-card h3 {
+        color: #2980b9; /* Color más atractivo para los encabezados de los cuentos */
+        font-size: 28px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e74c3c; /* Borde inferior */
+        transition: color 0.3s; /* Transición de color */
+    }
+
+    .story-card:hover h3 {
+        color: #2980b9; /* Cambiar color al pasar el ratón */
+    }
+
+    .story-card p {
+        margin-bottom: 15px;
+        text-align: justify; /* Justifica el texto */
+        color: #34495e; /* Color de texto más suave */
+    }
+
+    footer {
+        background-color: #2c3e50; /* Color oscuro para el pie de página */
+        color: #ecf0f1; /* Texto claro para contraste */
+        padding: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        animation: fadeIn 1.5s ease-in; /* Animación de entrada para el pie más suave */
+    }
+
+    .centered-button {
+        display: flex; /* Usar flexbox para centrar */
+        justify-content: center; /* Centrar horizontalmente */
+        margin-top: 20px; /* Espacio superior si es necesario */
+    }
+
+    .story-button {
+        display: inline-block;
+        width: 50px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Igualar la altura y el ancho para hacerlo redondo */
+        background-color: #e50914; /* Color rojo de Netflix */
+        color: white;
+        text-decoration: none;
+        border-radius: 50%; /* Hace el botón redondo */
+        font-size: 16px; /* Tamaño del texto */
+        text-align: center; /* Centra el texto dentro del botón */
+        line-height: 50px; /* Centra verticalmente el texto */
+        transition: background-color 0.3s;
+    }
+
+    .story-button:hover {
+        background-color: #c40612; /* Rojo más oscuro para el efecto hover */
+    }
+
+    /* Footer básico */
+    footer {
+        background-color: #2c3e50; /* Color oscuro */
+        color: #ecf0f1; /* Texto claro */
+        padding: 15px 20px; /* Espaciado interno para alineación */
+        text-align: center;
+        position: relative;
+        display: flex; /* Flex para la disposición de elementos */
+        justify-content: space-between; /* Espacio entre los elementos */
+        align-items: center;
+    }
+
+    /* Estilos para los logos en el footer */
+    .logo-footer-left, .logo-footer-right {
+        width: 90px; /* Ajusta el tamaño según lo necesario */
+        height: auto;
+        opacity: 0.9; /* Transparencia opcional */
+    }
+
+    /* Evitar que el contenido del footer se solape con los logos */
+    footer p {
+        flex: 1; /* Para centrar el texto entre los logos */
+        margin: 0;
+        padding: 0;
+    }
+

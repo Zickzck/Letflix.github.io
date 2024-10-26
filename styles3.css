@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #d9e7f0, #f0f4f8); /* Fondo suave en tonos azul claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px;
+    background-color: #2c3e50; /* Color oscuro pero más suave para el encabezado */
+    color: #ecf0f1; /* Texto claro para contraste */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño del encabezado */
+    color: #e74c3c; /* Color del encabezado */
+}
+
+.Poemarios {
+    margin: 20px;
+    text-align: center; /* Centrar el texto */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las imágenes */
+    margin: 20px;
+}
+
+.student-card {
+    width: 300px; /* Aumentado para mayor espacio */
+    margin: 15px; /* Aumentado el margen entre tarjetas */
+    border: 1px solid #e50914; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    text-align: center;
+    background-color: #ffffff; /* Fondo blanco para el cuadro */
+}
+
+.student-image {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del cuadro */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    max-height: 250px; /* Aumentado para que las imágenes sean más grandes */
+    object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+}
+
+.audio-container {
+    margin: 20px; /* Espacio alrededor del contenedor de audio */
+}
+
+.audio-card {
+    background-color: #ffffff; /* Fondo blanco para el cuadro de audio */
+    border: 1px solid #e50914; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre los cuadros de audio */
+    display: flex; /* Flex para alinear elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.audio-label {
+    margin-left: 10px; /* Espacio entre el audio y el texto */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Cambia el color según el diseño */
+    font-weight: bold; /* Negrita para el texto */
+}
+
+footer {
+    background-color: #2c3e50; /* Color oscuro para el pie de página */
+    color: #ecf0f1; /* Texto claro para contraste */
+    padding: 15px;
+    text-align: center;
+}
