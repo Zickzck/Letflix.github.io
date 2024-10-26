@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0e; /* Fondo suave, color gris claro */
+    color: #333333; /* Color de texto más suave para mejor legibilidad */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header img {
+    width: 400px; /* Ajusta el tamaño del logo de Letflix aquí */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px;
+}
+.logo-header-left{
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px; /* Espacio adicional si es necesario */
+
+} 
+.logo-header-right{
+
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px; /* Espacio adicional si es necesario */
+}
+
+header h2 {
+    font-size: 24px;
+    color: #e50914; /* Color rojo de Netflix */
+    margin-top: 0;
+}
+
+.content-wrapper {
+    border: 2px solid #e50914; /* Borde rojo de Netflix */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centramos el contenedor */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+}
+
+.index {
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px solid #e50914; /* Borde rojo de Netflix */
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.logo-header-left, .logo-header-right {
+    width: 100px; /* Tamaño ajustable para los logos en el header */
+    height: auto;
+}
+
+/* Estilo para el footer */
+footer {
+    display: flex; /* Utiliza flexbox para alinear los logos */
+    justify-content: space-between; /* Espacia los logos a los extremos */
+    align-items: center; /* Centra verticalmente los logos */
+    padding: 20px; /* Espaciado interno del footer */
+    background-color: #000000; /* Color de fondo del footer */
+    color: #ecf0f1;
+}
+
+/* Tamaño del logo */
+.logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
+    width: 100px; /* Tamaño para los logos */
+    height: auto;
+}
+
+.poem-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #e50914; /* Color rojo de Netflix */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.poem-button:hover {
+    background-color: #c40612; /* Rojo más oscuro para el efecto hover */
+}
+    
