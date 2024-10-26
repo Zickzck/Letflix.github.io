@@ -11,7 +11,9 @@ body {
     line-height: 1.6;
 }
 
+
 header {
+    
     padding: 20px;
     background-color: #2c3e50; /* Color oscuro pero más suave para el encabezado */
     color: #ecf0f1; /* Texto claro para contraste */
@@ -19,10 +21,45 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+header img  {
+    width: 230px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-bottom: 12px;
+    display: block; /* Asegura que la imagen ocupe toda la línea */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+}
+
+
+.logo-header-left, .logo-header-right {
+    width: 100px; /* Tamaño más grande para el logo */
+    height: auto;
+    position: absolute;
+
+} 
+/* Posicionar los logos en el header */
+.logo-header-left {
+    top: 5px;
+    left: 10px;
+}
+
+.logo-header-right {
+    top: 10px;
+    right: 10px;
+}
+
+/* Asegurarse de que el header y footer tengan posición relativa */
+header{
+    position: relative;
+}
+
+
 header h1 {
     font-size: 36px; /* Tamaño del encabezado */
     color: #e74c3c; /* Color del encabezado */
 }
+
+
 
 .Poemarios {
     margin: 20px;
