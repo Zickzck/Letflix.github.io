@@ -65,6 +65,28 @@ footer {
     height: auto;
 }
 
+.audio-container {
+    margin: 20px; /* Espacio alrededor del contenedor de audio */
+}
+
+.audio-card {
+    background-color: #ffffff; /* Fondo blanco para el cuadro de audio */
+    border: 1px solid #e50914; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre los cuadros de audio */
+    display: flex; /* Flex para alinear elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.audio-label {
+    margin-left: 10px; /* Espacio entre el audio y el texto */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Cambia el color según el diseño */
+    font-weight: bold; /* Negrita para el texto */
+}
+
+
 .poem-button {
     display: inline-block;
     margin-top: 20px;
