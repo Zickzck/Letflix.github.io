@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0e; /* Fondo suave, color gris claro */
+    color: #333333; /* Color de texto más suave para mejor legibilidad */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo-header-left {
+    width: 55px; /* Tamaño del logo en el lado izquierdo */
+    height: auto;
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical hacia arriba */
+    left: 10px; /* Ajusta la posición horizontal */
+    margin: 0; /* Sin margen adicional */
+} 
+
+.logo-header-right {
+    width: 100px; /* Tamaño del logo en el lado derecho */
+    height: auto;
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical hacia arriba */
+    right: 10px; /* Ajusta la posición horizontal */
+    margin: 0; /* Sin margen adicional */
+}
+
+.content-wrapper {
+    border: 2px solid #e50914; /* Borde rojo de Netflix */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centramos el contenedor */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    position: relative; /* Necesario para que los logos se posicionen correctamente */
+}
+
+.content {
+    margin-top: 40px; /* Espacio adicional para el texto para evitar superposición con los logos */
+}
+
+.index {
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px solid #e50914; /* Borde rojo de Netflix */
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Estilo para el footer */
+footer {
+    display: flex; /* Utiliza flexbox para alinear los logos */
+    justify-content: space-between; /* Espacia los logos a los extremos */
+    align-items: center; /* Centra verticalmente los logos */
+    padding: 20px; /* Espaciado interno del footer */
+    background-color: #000000; /* Color de fondo del footer */
+    color: #ecf0f1;
+}
+
+/* Tamaño del logo */
+.logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
+    width: 70px; /* Tamaño para los logos */
+    height: auto;
+}
+
+.audio-container {
+    margin: 20px; /* Espacio alrededor del contenedor de audio */
+}
+
+.audio-card {
+    background-color: #ffffff; /* Fondo blanco para el cuadro de audio */
+    border: 1px solid #e50914; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre los cuadros de audio */
+    display: flex; /* Flex para alinear elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.audio-label {
+    margin-left: 10px; /* Espacio entre el audio y el texto */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Cambia el color según el diseño */
+    font-weight: bold; /* Negrita para el texto */
+}
+
+
+.poem-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #e50914; /* Color rojo de Netflix */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.poem-button:hover {
+    background-color: #c40612; /* Rojo más oscuro para el efecto hover */
+}
+    
