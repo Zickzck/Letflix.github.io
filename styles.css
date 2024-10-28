@@ -9,8 +9,8 @@ body {
 
 
 .libro {
-position abolute;
-width: 250px;
+  position: relative;
+width: 200px;
 height: auto;
   text-align: center;
 }
