@@ -12,6 +12,7 @@ body {
 position abolute;
 width: 250px;
 height: auto;
+  text-align: center;
 }
 
 
@@ -44,10 +45,12 @@ height: auto;
     margin: 20px auto; /* Centramos el contenedor */
     background-color: #ffffff; /* Fondo blanco para el contenedor */
     position: relative; /* Necesario para que los logos se posicionen correctamente */
+    text-align: justify;
 }
 
+
 .content {
-    margin-top: 40px; /* Espacio adicional para el texto para evitar superposición con los logos */
+    margin-top: 60px; /* Espacio adicional para el texto para evitar superposición con los logos */
 }
 
 .index {
