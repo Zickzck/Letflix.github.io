@@ -61,7 +61,7 @@ footer {
 
 /* Tamaño del logo */
 .logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
-    width: 30px; /* Tamaño para los logos */
+    width: 70px; /* Tamaño para los logos */
     height: auto;
 }
 
