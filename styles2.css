@@ -38,7 +38,7 @@
     }
 
     .logo-header-left, .logo-header-right {
-        width: 50px; /* Tamaño más grande para el logo */
+        width: 70px; /* Tamaño más grande para el logo */
         height: auto;
         position: absolute;
     
