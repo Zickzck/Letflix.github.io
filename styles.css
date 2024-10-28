@@ -1,28 +1,31 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0d0d0e; /* Fondo suave, color gris claro */
+    background-color: #0d0d0e; /* Fondo suave, color gris oscuro */
     color: #333333; /* Color de texto más suave para mejor legibilidad */
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+/* Logos en el header */
 .logo-header-left {
-    width: 55px; /* Tamaño del logo en el lado izquierdo */
-    height: auto;
     position: absolute;
     top: 10px; /* Ajusta la posición vertical hacia arriba */
     left: 10px; /* Ajusta la posición horizontal */
     margin: 0; /* Sin margen adicional */
-} 
+}
 
 .logo-header-right {
-    width: 100px; /* Tamaño del logo en el lado derecho */
-    height: auto;
     position: absolute;
     top: 10px; /* Ajusta la posición vertical hacia arriba */
     right: 10px; /* Ajusta la posición horizontal */
     margin: 0; /* Sin margen adicional */
+}
+
+/* Estilo común para todos los logos */
+.logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
+    width: 70px; /* Tamaño para los logos */
+    height: auto; /* Mantener la proporción */
 }
 
 .content-wrapper {
@@ -56,13 +59,7 @@ footer {
     align-items: center; /* Centra verticalmente los logos */
     padding: 20px; /* Espaciado interno del footer */
     background-color: #000000; /* Color de fondo del footer */
-    color: #ecf0f1;
-}
-
-/* Tamaño del logo */
-.logo-header-left, .logo-header-right, .logo-footer-left, .logo-footer-right {
-    width: 70px; /* Tamaño para los logos */
-    height: auto;
+    color: #ecf0f1; /* Color del texto en el footer */
 }
 
 .audio-container {
