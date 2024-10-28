@@ -7,6 +7,14 @@ body {
     text-align: center;
 }
 
+
+.libro {
+position abolute;
+width: 80px;
+height: auto;
+}
+
+
 /* Logos en el header */
 .logo-header-left {
     position: absolute;
