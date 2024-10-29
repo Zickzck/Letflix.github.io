@@ -12,7 +12,6 @@ body {
   position: relative;
 width: 200px;
 height: auto;
-  text-align: center;
 }
 
 
@@ -60,7 +59,7 @@ height: auto;
     text-align: left;
     font-size: 16px;
     line-height: 1.8;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Estilo para el footer */
