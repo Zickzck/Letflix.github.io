@@ -215,7 +215,7 @@ footer {
 
 /* Estilos para los logos en el footer */
 .logo-footer-left, .logo-footer-right {
-    width: 70px; /* Ajusta el tamaño según lo necesario */
+    width: 50px; /* Ajusta el tamaño según lo necesario */
     height: auto;
     opacity: 0.9; /* Transparencia opcional */
 }
