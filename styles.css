@@ -18,7 +18,7 @@ height: auto;
 /* Logos en el header */
 .logo-header-left {
     position: absolute;
-    top: 10px; /* Ajusta la posición vertical hacia arriba */
+    top: 10px; /* Ajusta la posición vertical hcia arriba */
     left: 10px; /* Ajusta la posición horizontal */
     margin: 0; /* Sin margen adicional */
 }
@@ -109,4 +109,3 @@ footer {
 .poem-button:hover {
     background-color: #c40612; /* Rojo más oscuro para el efecto hover */
 }
-
