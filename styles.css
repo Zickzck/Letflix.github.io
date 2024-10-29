@@ -44,7 +44,7 @@ height: auto;
     margin: 20px auto; /* Centramos el contenedor */
     background-color: #ffffff; /* Fondo blanco para el contenedor */
     position: relative; /* Necesario para que los logos se posicionen correctamente */
-    text-align: justify;
+    text-align: Center;
 }
 
 
@@ -59,7 +59,7 @@ height: auto;
     text-align: left;
     font-size: 16px;
     line-height: 1.8;
-    text-align: center;
+    text-align: justify;
 }
 
 /* Estilo para el footer */
