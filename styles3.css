@@ -170,6 +170,8 @@ header, footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 2px;
+    gap: 6px;
 }
 
 /* Estilo común para ambos botones */
